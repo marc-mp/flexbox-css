@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content = "Marc Morell">
+
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: #fcffff;
+
+        }
+
+        fieldset {
+          background-color: #cedfdc;
+        }
+        
+        input {
+          margin: 2px;
+        }
+    </style>
+    <link href="./css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <h4>(M8.2) Exercici 5. Programa per crear edificis.</h4>
+
+   
+<fieldset>
+    <input type="button" value = "CREAR EDIFICI" onclick="crearEdifici()">
+    <input type="button" value = "ELIMINAR EDIFICI" onclick="eliminarEdifici()">
+    <input type="button" value = "MOSTRAR EDIFICI" onclick="mostrarEdifici()"><br><br>
+
+    <div id = "result"></div>
+
+</fieldset>
+
+
+
+    <script src="js/Edifici.js"></script>
+    <script src="js/Hotel.js"></script>
+    <script src="js/Cinema.js"></script>
+    <script src="js/Hospital.js"></script>
+    <script src="js/crud.js"></script>
+
+    
+
+</body>
+</html>

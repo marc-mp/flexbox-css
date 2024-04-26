@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id = "result"></div>
+
+    <script>
+            let num1 = parseInt (prompt('introdueix primer numero'));
+            let num2 = parseInt (prompt('introdueix segon numero'));
+        
+        
+            let suma = num1 + num2
+            let message1= `El resultat de la suma es ${suma} `
+            
+            let resta = num1 - num2
+            let message2 = `El resultat de la resta es ${resta} ` 
+            
+            let multiplicacio = num1 * num2
+            let message3 = `El resultat de la multiplicacio es ${multiplicacio} ` 
+          
+            let divisio = num1 / num2
+            let message4 = `El resultat de la divisio es ${divisio} ` 
+            
+           let result = document.getElementById("result")
+            
+            result.innerHTML += message1
+            result.innerHTML+= '<br>'
+            result.innerHTML += message2
+            result.innerHTML+= '<br>'
+            result.innerHTML += message3
+            result.innerHTML+= '<br>'
+            result.innerHTML += message4
+            
+            
+        </script>
+
+
+
+
+
+
+</body>
+</html>

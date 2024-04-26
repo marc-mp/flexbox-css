@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrusel</title>
+    <link href="./css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+   
+    <div id="container">
+    <h1 id="tema">Ciudades del mundo</h1>
+    <p><img 
+            id = "imagen" 
+            src = "./img/barcelona.jpg" 
+            title = "Barcelona"
+            alt = "Foto de Barcelona"
+        />
+    </p>
+
+    
+    <p> <input type="button" onclick="retroceder()" value="Retroceder"/>
+    <span id="nombreImagen"></span>
+    <input type="button" onclick="avanzar()" value="Avanzar"/>
+    </p>
+    <p id="desc"></p>
+    </div>
+
+
+   <script src="imagenes.js"></script>
+   <script src="carrousel.js"></script>
+    
+
+
+   
+</body>
+
+</html>

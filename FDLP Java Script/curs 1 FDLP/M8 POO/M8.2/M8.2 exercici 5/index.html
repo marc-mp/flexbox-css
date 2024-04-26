@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content = "Marc Morell">
+
+    <title>Document</title>
+</head>
+<body>
+    <h4>(M8.2) Exercici 5. Programa per crear edificis.</h4>
+
+    
+    
+    
+    <div id = "TipoEdificio">
+        <label for="TipusEdifici"><strong>Selecciona tipus d'edifici:</strong></label>
+        <select name="Tipus d'edifici" id="TipusEdifici">
+            <option value="">Selecciona </option>
+            <option value="Hospital">Hospital</option>
+            <option value="Cinema">Cinema</option>
+            <option value="Hotel">Hotel</option>
+        </select> 
+    </div> 
+
+    <h3>Crear edifici</h3>
+    <div id="general">
+    <label for = "nomEdifici">Nom edifici</label>
+    <input type = "text"  id = "nomEdifici" placeholder = ""></input>
+    <label for = "superficie">Superficie m2</label>
+    <input type = "number"  id = "superficie" placeholder = ""></input>
+    <label for = "numPlantas">Nº de plantas</label>
+    <input type = "number"  id = "numPlantas" placeholder = ""></input><br><br>
+    </div>
+    
+
+    <div id = "tipoHospital">
+    <label for = "numMalalts">(HOSPITAL) : Nº malalts  </label>
+    <input type = "number"  id = "numMalalts" placeholder = "hospital"></input><br><br>
+    </div>
+
+    <div id = "tipoCinema">
+    <label for = "preuEntrada">(CINEMA) : Preu entrada</label>
+    <input type = "number"  id = "preuEntrada" placeholder = "cinema"></input>
+    <label for = "assistents">Nº d'assistents</label>
+    <input type = "number"  id = "assistents" placeholder = "cinema"></input>
+    <label for = "aforament">Aforament</label>
+    <input type = "number"  id = "aforament" placeholder = "cinema"></input><br><br>
+    </div>
+
+    <div id = "tipoHotel">
+    <label for = "numHabitacions">(HOTEL) : Nº d'habitacions </label>
+    <input type = "number"  id = "numHabitacions" placeholder = "hotel"></input><br><br>
+    </div>
+
+    <input type = "button" value = "Crear Edifici" id = btnCrear></input><br><br>
+
+
+    <h3>Mostrar edifici</h3>
+    <label for = "nomMostrar">Nom de l'edifici a mostrar</label>
+    <input type = "text"  id = "nomMostrar" placeholder = ""></input>
+    <input type = "button" value = "Mostrar Edifici" id = btnMostrar></input><br><br>
+
+    <h3>Eliminar edifici</h3>
+    <label for = "nomEliminar">Nom de l'edifici a eliminar</label>
+    <input type = "text"  id = "nomEliminar" placeholder=""></input>
+    <input type = "button" value = "Eliminar Edifici" id = btnEliminar></input><br><br>
+
+
+
+    <script type = "module" src = "main.js"></script>
+    
+    <div id = "result"></div>
+
+</body>
+</html>

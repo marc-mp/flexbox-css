@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "result"> </div>
+    <script>
+        let nom = prompt('escriu el teu nom');
+        let cognom = prompt('escriu el teu cognom');
+        let edat = prompt('escriu la teva edad');
+    
+
+
+        let message = `El meu nom es ${nom} ${cognom} i tinc ${edat} anys`
+        let result = document.getElementById("result")
+
+        console.log(message)
+        alert(message)
+        result.innerHTML = message
+
+
+    </script>
+
+
+
+</body>
+</html>

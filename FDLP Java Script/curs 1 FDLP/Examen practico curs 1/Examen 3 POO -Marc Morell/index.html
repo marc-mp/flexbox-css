@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Crear docente</h3>
+    <label for = "dni">Dni</label>
+    <input type = "text" id = "dni" placeholder=""><br><br>
+    <label for = "nombre">Nombre</label>
+    <input type = "text" id = "nombre" placeholder=""><br><br>
+    <label for = "apellido">Apellido</label> 
+    <input type = "text" id = "apellido" placeholder=""><br><br>
+    <label for = "experiencia">Experiencia</label>
+    <input type = "text" id = "experiencia" placeholder=""><br><br>
+    <label for = "estado">Estado</label>
+    <select name = "Estado" id = "estado">
+        <option value="Funcionario">Funcionario</option>
+        <option value="Interino">Interino</option>
+    </select><br><br>
+    <input type = "button" value = "CrearDocente" id = "btnCrear">
+
+    <h3>Crear especialidad</h3>
+    <label for = "dni">Dni</label>
+    <input type = "text" id = "dniEspecialidad" placeholder=""><br><br>
+    <label for = "nombreEspecialidad">Especialidad</label>
+    <input type = "text" id = "nombreEspecialidad" placeholder=""><br><br>
+    <input type = "button" value = "CrearEspecialidad" id = "btnCrearEspecialidad">
+
+
+    <h3>Listado docentes</h3>
+    <label for="btnVisualizarDocentes">Ver listado docentes</label>
+    <input type = "button" value = "Listado Docentes" id = "btnVisualizarDocentes">
+
+
+    <h3>Modificar experiencia docente</h3>
+    <label for = "dnimodificar">Dni</label>
+    <input type = "text" id = "dnimodificar" placeholder = "">
+    <input type = "button" value = "Modificar experiencia" id = "btnModificarExperiencia"><br><br>
+    <label for = "experienciaModificar">Experiencia</label>
+    <input type = "text" id = "experienciaModificar" placeholder="">
+    <input type = "button" value = "Actualizar experiencia" id = "btnActualizarExperiencia">
+
+    <h3>Buscar docente</h3>
+    <label for = "dniBuscar">Dni</label>
+    <input type = "text" id = "dniBuscar" placeholder = "">
+    <input type = "button" value = "BuscarDocenteDni" id = "btnBuscarDocenteDni"><br><br>
+    
+    <label for="especialidadBuscar">Especialidad</label>
+    <input type="text" id = "especialidadBuscar" placeholder="">
+    <input type = "button" value = "BuscarDocenteEspecialidad" id = "btnBuscarDocenteEspecialidad"><br><br>
+   
+    <label for = "EstadoBuscar">Estado</label>
+    <select name = "EstadoBuscar" id = "EstadoBuscar">
+        <option value="Funcionario">Funcionario</option>
+        <option value="Interino">Interino</option>
+    </select>
+    <input type = "button" value = "BuscarDocenteEstado" id = "btnBuscarDocenteEstado"><br><br>
+
+
+
+
+    <div id = "result"></div>
+    <script type="module" src="main.js"></script>
+
+
+</body>
+</html>

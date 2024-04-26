@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content = "Marc Morell">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Escull l'operació que vols calcular</h1>
+    <br>
+    <div>
+        <label for="num1" > Introdueix numero</label>
+        <input type ="number" id= "num1" placeholder = ""></input>
+    </div>
+    <br>
+    <div>
+        <label for="num2" > Introdueix numero</label>
+        <input type ="number" id= "num2" placeholder = ""></input>
+    </div>
+    <br>
+    <div>
+        <label for="operador">elige operador:</label>
+        <select name="operador" id="operador">
+            <option value="+">sumar</option>
+            <option value="-">restar</option>
+            <option value="*">multiplicar</option>
+            <option value="/">dividir</option>
+        </select>
+    </div>
+
+    <input type="button" value="submit" onclick= myFunction()></input>
+
+    <script src="M4exercici5.js"></script>
+    
+    <div id = "result"> </div>
+
+
+</body>
+</html>

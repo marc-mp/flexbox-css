@@ -1,0 +1,8 @@
+body {
+    height: 800px;
+    background-image: url("https://imgs.search.brave.com/vi_fVee99RYFka-pfwibnYOWft2_S6GERFOavcSYk_0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/ZW1wcmVzYXJpby1l/cXVpcGFqZS1lc3Bl/cmFuZG8tbGxlZ2Fk/YS1hbC1hZXJvcHVl/cnRvLWdlbmVyYWRv/LWlhXzE4ODU0NC0z/OTMzMC5qcGc_c2l6/ZT02MjYmZXh0PWpw/Zw");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center; 
+  }
+  

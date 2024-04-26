@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id = "result"></div>
+
+    <script>
+        let num1 = parseInt (prompt("calculadora arcaica",'introdueix primer valor'));
+        let num2 = parseInt (prompt("calculadora arcaica", 'introdueix segon valor'));
+        let operacion = prompt('quina operacio vol realitzar? sumar, restar, multiplicar, dividir?')
+
+        
+        if (operacion == "sumar") {
+            let resultat = num1 + num2
+            let message = `El resultat de la suma es ${resultat}`
+            let result = document.getElementById("result")
+        
+            console.log(message)
+            alert(message)
+            result.innerHTML = message
+            } 
+        else if (operacion == "restar") {
+            let resultat = num1 - num2
+            let message = `El resultat de la resta es ${resultat}` 
+            let result = document.getElementById("result")
+        
+            console.log(message)
+            alert(message)
+            result.innerHTML = message
+            }
+            
+        else if (operacion == "multiplicar") {
+            let resultat = num1 * num2
+            let message = `El resultat de la multiplicacio es ${resultat}` 
+            let result = document.getElementById("result")
+        
+            console.log(message)
+            alert(message)
+            result.innerHTML = message
+            }
+            
+        else if (operacion == "dividir") {
+                let resultat = num1 / num2
+                let message = `El resultat de la divisio es ${resultat}` 
+                let result = document.getElementById("result")
+        
+                console.log(message)
+                alert(message)
+                result.innerHTML = message
+            }
+        else{ alert("operacion no contemplada")}
+            
+    
+
+        </script>
+
+</body>
+</html>
