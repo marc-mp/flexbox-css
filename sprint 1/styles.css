@@ -28,6 +28,13 @@
     flex-grow: 1;      
 }
 
+.logo:hover {
+    cursor: pointer;
+    background-color: rgb(253, 26, 6);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
 
 .nav {
     background-color: firebrick;
