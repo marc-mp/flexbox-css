@@ -28,13 +28,6 @@
     flex-grow: 1;      
 }
 
-.logo:hover {
-    cursor: pointer;
-    background-color: rgb(253, 26, 6);
-    transform: scale(1.2);
-    transition: 0.5s;
-}
-
 
 .nav {
     background-color: firebrick;
@@ -151,16 +144,9 @@
         flex-direction: column;
     }
     
-
     .section {
         flex-direction: column;
     }
-
-    body {
-        background-color: rgb(135, 189, 82);
-    }
-
-
 }
 
 /* VERSIO MOBIL */
@@ -170,11 +156,8 @@
     .contenido {
         flex-flow: column nowrap;
     }   
-
-    body {
-        background-color: rgb(196, 102, 130);
-    }
 }
+
 
 
 
