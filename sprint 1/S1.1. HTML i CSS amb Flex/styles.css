@@ -147,6 +147,11 @@
     .section {
         flex-direction: column;
     }
+
+    body {
+        background-color: rgb(135, 189, 82);
+    }
+
 }
 
 /* VERSIO MOBIL */
@@ -156,6 +161,11 @@
     .contenido {
         flex-flow: column nowrap;
     }   
+
+    body {
+        background-color: rgb(196, 102, 130);
+    }
+
 }
 
 
