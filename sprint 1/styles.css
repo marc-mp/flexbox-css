@@ -135,3 +135,30 @@
     font-size: 16px;
 }
 
+
+/* VERSIO TABLET */
+
+@media all and (max-width: 1024px) {
+  
+    .container {
+        flex-direction: column;
+    }
+    
+
+    .section {
+        flex-direction: column;
+    }
+
+}
+
+/* VERSIO MOBIL */
+
+@media all and (max-width: 767px) {
+
+    .contenido {
+        flex-flow: column nowrap;
+    }   
+}
+
+
+
